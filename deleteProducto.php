@@ -1,7 +1,7 @@
 <?php
 require_once('conexion.php');
 $ID = $_GET['ID'];
-$deleted=$mysqli->query("DELETE FROM venta WHERE ID = '$ID'");
+$deleted=$mysqli->query("DELETE FROM venta WHERE ID_producto = '$ID'");
 if($deleted){
     $mysqli->query("DELETE FROM producto WHERE ID = '$ID'");
     header("location: index.php");
