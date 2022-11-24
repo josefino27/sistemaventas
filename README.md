@@ -9,7 +9,7 @@ Hola, este es un sistema de ventas desrrollado en
 -- version 4.8.5
 -- https://www.phpmyadmin.net/
 
-github repository: https://github.com/josefino27/sistemahv.git
+github repository: https://github.com/josefino27/sistemaventas.git
 
 se procede a instalar el XAMP compatible con la version 7+ de php.
 
